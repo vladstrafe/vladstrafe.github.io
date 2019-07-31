@@ -1,0 +1,99 @@
+@media only screen and (min-width: 1680px) {
+    .about-section,
+    .locations-section,
+    .treatment-section,
+    .helped-section,
+    .plan-section,
+    .testimonials-section,
+    .accept-section,
+    footer {
+        background-size: cover;
+    }
+
+    .locations-section {
+        min-height: 960px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+    }    
+}
+
+@media only screen and (max-width: 1580px) {
+
+    .inner-top {
+        padding-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .about__experience {
+        margin: 40px 0 15px 0;
+    }
+    .about__btn {
+        margin-top: 30px;
+    }
+
+    .call {
+        padding: 0 5.5%;
+    }
+
+    .locations-section {
+        background-position: center bottom;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    :root {
+        font-size: 8px;
+    }
+
+    .about-section,
+    .recovery-section,
+    .locations-section,
+    .treatment-section,
+    .services-section,
+    .helped-section,
+    .news-section,
+    .plan-section,
+    .alumni-section,
+    .insurance-section,
+    .accept-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .banner-inner {
+        top: 20px;
+    }
+
+    .inner-top .btn {
+        height: 55px;
+        border-radius: 28px;
+    }    
+
+    .contact-text {
+        margin: 40px 21px 0 31px;
+    }
+
+    .recovery-steps {
+        padding-left: 1%;
+    }
+
+    .step2 h3 {
+        letter-spacing: -1px;
+    }
+
+    .call {
+        padding: 0 2%;
+    }
+
+    .news-content {
+        height: 500px;
+    }
+
+    .card-info {
+        max-height: 250px;
+    }
+
+}
