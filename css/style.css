@@ -579,11 +579,6 @@ h1 {
 .news-card {
     width: 25%;
 }
-    @media only screen and (min-width: 1680px) {
-        .news-content {
-            min-height: 35.7vw;
-        }
-    }
 
 .card-info {
     display: flex;
@@ -616,6 +611,10 @@ h1 {
     color: #a382af;
     margin-bottom: auto;
 }  
+
+.card-info__link {
+    width: 41px;
+}
 
 .news__btn {
     width: 239px;
