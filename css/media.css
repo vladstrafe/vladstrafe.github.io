@@ -71,9 +71,8 @@
         top: 20px;
     }
 
-    .inner-top .btn {
-        height: 55px;
-        border-radius: 28px;
+    .inner__btn {
+        margin-bottom: 140px;
     }    
 
     .contact-text {
